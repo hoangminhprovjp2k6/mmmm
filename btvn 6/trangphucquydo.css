@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contend-img img {
+height: 400px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.contend {
+    margin-left: 205px;
+
+}
+
+.price{
+    color: red;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 40px;
+}
+.color{
+    display: flex;
+    margin-top: 30px;
+}
+.color .color-orange{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    background-color: orange;
+}
+.color .color-black{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    background-color: black;
+}
+.color .color-blue{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    background-color: blue;
+}
+.color .color-green{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    background-color: green;
+}
+.btn{
+    margin-top: 125px;
+}
+.size{
+    margin-top: 30px;
+}
+.left {
+   width: 200px;
+   height: 40px;
+    background-color:red;
+    margin-left: 30px;
+    color: white;
+    border-radius: 30px;
+}
+.right {
+    width: 200px;
+    height: 40px;
+    background-color: red;
+    margin-left: 30px;
+    color: white;
+    border-radius: 30px;   
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
